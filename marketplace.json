@@ -58,7 +58,7 @@
   },
   "models": [
     {
-      "name": "ml_accelerator",
+      "name": "ml_accelerator_v2",
       "connection_constant": "CONNECTION_NAME"
     }
   ]

@@ -1,4 +1,4 @@
-project_name: "marketplace_bqml_ext"
+project_name: "ml_accelerator_v2"
 
 application: ml-accelerator {
   label: "Machine Learning Accelerator"
