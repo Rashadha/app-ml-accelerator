@@ -39,15 +39,15 @@ constant: CONNECTION_NAME {
 }
 
 constant: GCP_PROJECT {
-  value: "{{_user_attributes['ml_accelerator_v2_ml_accelerator_gcp_project']}}"
+  value: "lankatiles-cortex"
 }
 
 constant: BQML_MODEL_DATASET_NAME {
-  value: "{{_user_attributes['ml_accelerator_v2_ml_accelerator_bqml_model_dataset_name']}}"
+  value: "ml_accelerator_data"
 }
 
 constant: GENERATE_TEXT_MODEL_NAME {
-  value: "{{_user_attributes['ml_accelerator_v2_ml_accelerator_generate_text_model_name']}}"
+  value: "mla-text-bison"
 }
 # First create an LLM model in the same dataset as specified in constant "BQML_MODEL_DATASET_NAME", then provide model name here
 # https://cloud.google.com/bigquery/docs/generate-text
