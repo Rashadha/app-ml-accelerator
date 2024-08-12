@@ -39,15 +39,15 @@ constant: CONNECTION_NAME {
 }
 
 constant: GCP_PROJECT {
-  value: "{{_user_attributes['marketplace_bqml_ext_ml_accelerator_gcp_project']}}"
+  value: "{{_user_attributes['ml_accelerator_v2_ml_accelerator_gcp_project']}}"
 }
 
 constant: BQML_MODEL_DATASET_NAME {
-  value: "{{_user_attributes['marketplace_bqml_ext_ml_accelerator_bqml_model_dataset_name']}}"
+  value: "{{_user_attributes['ml_accelerator_v2_ml_accelerator_bqml_model_dataset_name']}}"
 }
 
 constant: GENERATE_TEXT_MODEL_NAME {
-  value: "{{_user_attributes['marketplace_bqml_ext_ml_accelerator_generate_text_model_name']}}"
+  value: "{{_user_attributes['ml_accelerator_v2_ml_accelerator_generate_text_model_name']}}"
 }
 # First create an LLM model in the same dataset as specified in constant "BQML_MODEL_DATASET_NAME", then provide model name here
 # https://cloud.google.com/bigquery/docs/generate-text
